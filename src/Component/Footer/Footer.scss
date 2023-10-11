@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.footer-container {
+  width: 85%;
+  margin: auto;
+  .footer-row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .footer-col {
+    width: 25%;
+    margin-bottom: 20px;
+  }
+  h4 {
+    color: #6cd138;
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  ul {
+    li {
+      list-style: none;
+      color: gray;
+      padding: 5px 0;
+      font-size: 12px;
+    }
+  }
+  .footer-img {
+    display: grid;
+    gap: 3%;
+  }
+  .social-icon {
+    display: flex;
+    gap: 2%;
+    .fb-icon {
+      border-radius: 50%;
+      background-color: #3b5998;
+      width: 39px;
+      height: 37px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+    }
+    .pint-icon {
+      border-radius: 50%;
+      background-color: #db3236;
+      width: 39px;
+      height: 37px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+    }
+    .Twitter-icon {
+      border-radius: 50%;
+      background-color: #00aced;
+      width: 39px;
+      height: 37px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+    }
+    .insta-icon {
+      border-radius: 50%;
+      background-color: #517fa4;
+      width: 39px;
+      height: 37px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+    }
+    .fb-icon:hover {
+      background-color: white;
+      color: #3b5998;
+      border: 2px solid #3b5998;
+    }
+  }
+}
+
+@media screen and (min-width: 320px) {
+  .footer-container {
+    .footer-col {
+      width: 50%;
+    }
+    h4 {
+      font-size: 10px;
+    }
+    ul li {
+      font-size: 7px;
+    }
+    img {
+      width: 50%;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .footer-container {
+    .footer-col {
+      width: 25%;
+    }
+    h4 {
+      font-size: 13px;
+    }
+    ul li {
+      font-size: 9px;
+    }
+  }
+}
+@media screen and (min-width: 1020px) {
+  .footer-container {
+    h4 {
+      font-size: 14px;
+    }
+    ul li {
+      font-size: 12px;
+    }
+  }
+}
